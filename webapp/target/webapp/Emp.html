@@ -1,0 +1,46 @@
+<html>
+    <head>
+    <title>employee</title>
+    <style>
+        #form{
+ background-color:lightskyblue;
+ }
+ body{
+background-color:lemonchiffon;
+background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTl6tlX_YcHUv_KkPQbRFihH1IEvIlvHjlUQzxL8lRwPpaM-iTK);
+ height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+        </style>
+    </head>
+    <body>
+        
+    <h1 align="center">Employee details</h1>
+    <form action="SendToPojo" method="get">
+        
+     <table cellspacing=5 cellpadding=5 id="form" align="center">
+     <tr><td>Name:</td><td><input type="text" name="name"></td></tr>
+     <tr><td>Id:</td><td><input type="text" name="id" /></td></tr>
+    <tr><td>Date of Joining:</td><td><input type="text" name="date"/></td></tr>
+    <tr><td>Salary:</td><td><input type="text" name="salary" /></td></tr>
+    <tr><td>Phone:</td><td><input type="text" name="phone" /></td></tr>
+     <tr><td>Email:</td><td><input type="text" name="email" /></td></tr>
+    <tr><td><input type="submit" value="SUBMIT" ></td></tr>
+        
+    </form>
+        <form action="DisplayAll" method="get">
+            <tr><td><input type="submit" value="DISPLAY"></td></tr>
+        </form>
+      <form action="delete.html" method="GET">
+        <tr><td><input type="submit" value="DELETE"></td></tr>
+    </form>
+    <form action="Update.html" method="GET">
+      <tr><td><input type="submit" value="UPDATE"></td></tr>
+    </form>
+
+     </table>
+        
+    </body>
+</html>
